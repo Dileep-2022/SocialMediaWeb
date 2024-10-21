@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+$primary-Color: rgb(34, 40, 49);
+$secondary-Color: rgb(49, 54, 63);
+$heading-Color: rgb(118, 171, 174);
+$text-Color: rgb(238, 238, 238);
+
+
+body{
+    background-color: $primary-Color !important;
+    color: $text-Color !important;
+}
+
+.card{
+    background-color: $primary-Color !important;
+    color: $text-Color !important;
+    border: 1px solid $text-Color !important;
+}
