@@ -5,15 +5,13 @@
   <div class="container-fluid">
     <div class="row">
       <!-- User Info Column -->
-      <div class="col-lg-3 col-md-3 col-sm-12 d-none d-md-block">
-        <h5 class="fs-3">User Info</h5>
-        <p><strong>Name:</strong> John Doe</p>
-        <p><strong>Email:</strong> johndoeexample.com</p>
-        <p><strong>Phone:</strong> 555-1234</p>
-      </div>
+       <div class="col-lg-3 col-md-3 col-sm-12 d-none d-md-block">
+        <app-user-info/>
+       </div>
+      
 
       <!-- Posts Feed Column -->
-      <div class="col-lg-6 col-md-9 col-sm-12" style="overflow-y: scroll; height: 90vh;">
+      <div class="col-lg-6 col-md-9 col-sm-12" style="overflow-y: scroll; height: 90vh; position: relative;">
         <!-- <h5>Posts Feed</h5> -->
         <div *ngFor="let post of posts" class="card mb-2">
           <div class="card-body">
@@ -34,16 +32,21 @@
             </div>
           </div>
         </div>
+      
+        
       </div>
-
-
+    
+   
+       
 
       <!-- Ads Column -->
-      <div class="col-lg-3 col-md-3 col-sm-12">
-        <h5>Advertisements</h5>
-        <div class="ad">Ad 1</div>
-        <div class="ad">Ad 2</div>
-      </div>
+       <div class="col-lg-3 col-md-3 col-sm-12">
+        <app-adds/>
+       </div>
+      
     </div>
+    <div class="floating-button-container">
+      <button class="btn btn-primary floating-button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add Post" routerLink="/addPost" ><i class="bi bi-send-plus-fill"></i></button>
+  </div>
   </div>
 </div>

@@ -1,3 +1,4 @@
+
 .col-lg-6.col-md-6.col-sm-12{
     img{
         object-fit: contain;
@@ -6,3 +7,43 @@
         height: auto;
     }
 }
+.floating-button {
+    position: absolute; /* Position it relative to the nearest positioned ancestor (the div) */
+    bottom: 10px; /* Distance from the bottom of the div */
+    right: 20px; /* Distance from the right of the div */
+    background-color: rgba(93, 94, 94, 0.368); /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 50%; /* Round button */
+    width: 50px; /* Button width */
+    height: 50px; /* Button height */
+    font-size: 24px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+    transition: background-color 0.3s; /* Optional transition for hover effect */
+}
+
+.floating-button:hover {
+    color: #7DF9FF !important;
+    text-shadow: 0 0 5px #7DF9FF;
+}
+/* General scrollbar styles for Webkit browsers */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(34, 40, 49);
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(49, 54, 63);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+

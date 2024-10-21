@@ -3,13 +3,18 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { PostService } from '../services/post.service';
 import { NavbarComponent } from '../navbar/navbar.component';
+import { UserInfoComponent } from "../user-info/user-info.component";
+import { AddsComponent } from "../adds/adds.component";
+import { RouterModule } from '@angular/router';  
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent,CommonModule, FormsModule],
+  imports: [NavbarComponent, CommonModule, FormsModule, UserInfoComponent, AddsComponent,RouterModule],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrls: ['./home.component.scss',
+'/src/styles.scss'
+  ]
 })
 export class HomeComponent implements OnInit {
  
@@ -42,5 +47,9 @@ export class HomeComponent implements OnInit {
         console.error('Error loading posts', err); // Log errors
       }
     });
+  }
+
+  navigateToAddPost(){
+    window.location.href = '/addPost';  
   }
 }
