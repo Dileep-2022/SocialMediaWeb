@@ -1,0 +1,177 @@
+[
+    {
+      "id": 1,
+      "posttitle": "Best Hiking Trails",
+      "postdescription": "Exploring the top hiking trails in the country.",
+      "postfile": "hiking_trails.jpg",
+      "user": {
+        "username": "JohnDoe",
+        "useremail": "johndoe@example.com",
+        "userid": "1"
+      },
+      "likesCount": 5,
+      "likedBy": [
+        { "username": "JaneSmith", "userid": "2" },
+        { "username": "TomJones", "userid": "3" },
+        { "username": "SophiaDavis", "userid": "6" },
+        { "username": "DavidClark", "userid": "9" },
+        { "username": "OliviaWilson", "userid": "8" }
+      ]
+    },
+    {
+      "id": 2,
+      "posttitle": "Delicious Vegan Recipes",
+      "postdescription": "A collection of easy and delicious vegan recipes.",
+      "postfile": "vegan_recipes.jpg",
+      "user": {
+        "username": "JaneSmith",
+        "useremail": "janesmith@example.com",
+        "userid": "2"
+      },
+      "likesCount": 3,
+      "likedBy": [
+        { "username": "JohnDoe", "userid": "1" },
+        { "username": "EmilyMartinez", "userid": "10" },
+        { "username": "ChrisLee", "userid": "7" }
+      ]
+    },
+    {
+      "id": 3,
+      "posttitle": "Photography Tips for Beginners",
+      "postdescription": "Learn the basics of photography with these simple tips.",
+      "postfile": "photography_tips.jpg",
+      "user": {
+        "username": "TomJones",
+        "useremail": "tomjones@example.com",
+        "userid": "3"
+      },
+      "likesCount": 4,
+      "likedBy": [
+        { "username": "OliviaWilson", "userid": "8" },
+        { "username": "MiaPerez", "userid": "16" },
+        { "username": "DavidClark", "userid": "9" },
+        { "username": "SophiaDavis", "userid": "6" }
+      ]
+    },
+    {
+      "id": 4,
+      "posttitle": "Top 10 Travel Destinations",
+      "postdescription": "A guide to the top 10 travel destinations for 2024.",
+      "postfile": "travel_destinations.jpg",
+      "user": {
+        "username": "SophiaDavis",
+        "useremail": "sophiadavis@example.com",
+        "userid": "6"
+      },
+      "likesCount": 2,
+      "likedBy": [
+        { "username": "TomJones", "userid": "3" },
+        { "username": "JohnDoe", "userid": "1" }
+      ]
+    },
+    {
+      "id": 5,
+      "posttitle": "DIY Home Improvement",
+      "postdescription": "Step-by-step guide to easy home improvement projects.",
+      "postfile": "home_improvement.jpg",
+      "user": {
+        "username": "ChrisLee",
+        "useremail": "chrislee@example.com",
+        "userid": "7"
+      },
+      "likesCount": 6,
+      "likedBy": [
+        { "username": "JohnDoe", "userid": "1" },
+        { "username": "SophiaDavis", "userid": "6" },
+        { "username": "DavidClark", "userid": "9" },
+        { "username": "EmilyMartinez", "userid": "10" },
+        { "username": "JaneSmith", "userid": "2" },
+        { "username": "TomJones", "userid": "3" }
+      ]
+    },
+    {
+      "id": 6,
+      "posttitle": "Fitness at Home",
+      "postdescription": "How to stay fit and active with home workouts.",
+      "postfile": "fitness_home.jpg",
+      "user": {
+        "username": "EmilyMartinez",
+        "useremail": "emilymartinez@example.com",
+        "userid": "10"
+      },
+      "likesCount": 3,
+      "likedBy": [
+        { "username": "SophiaDavis", "userid": "6" },
+        { "username": "TomJones", "userid": "3" },
+        { "username": "DavidClark", "userid": "9" }
+      ]
+    },
+    {
+      "id": 7,
+      "posttitle": "Gardening Tips",
+      "postdescription": "Best tips to grow a healthy garden.",
+      "postfile": "gardening_tips.jpg",
+      "user": {
+        "username": "DavidClark",
+        "useremail": "davidclark@example.com",
+        "userid": "9"
+      },
+      "likesCount": 2,
+      "likedBy": [
+        { "username": "JohnDoe", "userid": "1" },
+        { "username": "ChrisLee", "userid": "7" }
+      ]
+    },
+    {
+      "id": 8,
+      "posttitle": "Digital Marketing Strategies",
+      "postdescription": "Top digital marketing strategies for small businesses.",
+      "postfile": "digital_marketing.jpg",
+      "user": {
+        "username": "OliviaWilson",
+        "useremail": "oliviawilson@example.com",
+        "userid": "8"
+      },
+      "likesCount": 4,
+      "likedBy": [
+        { "username": "SophiaDavis", "userid": "6" },
+        { "username": "JohnDoe", "userid": "1" },
+        { "username": "ChrisLee", "userid": "7" },
+        { "username": "JaneSmith", "userid": "2" }
+      ]
+    },
+    {
+      "id": 9,
+      "posttitle": "Understanding Cryptocurrency",
+      "postdescription": "A beginner's guide to understanding cryptocurrency.",
+      "postfile": "cryptocurrency_guide.jpg",
+      "user": {
+        "username": "LiamGreen",
+        "useremail": "liamgreen@example.com",
+        "userid": "17"
+      },
+      "likesCount": 3,
+      "likedBy": [
+        { "username": "TomJones", "userid": "3" },
+        { "username": "SophiaDavis", "userid": "6" },
+        { "username": "DavidClark", "userid": "9" }
+      ]
+    },
+    {
+      "id": 10,
+      "posttitle": "Healthy Smoothie Recipes",
+      "postdescription": "10 healthy smoothie recipes to boost your day.",
+      "postfile": "smoothie_recipes.jpg",
+      "user": {
+        "username": "MiaPerez",
+        "useremail": "miaperez@example.com",
+        "userid": "16"
+      },
+      "likesCount": 2,
+      "likedBy": [
+        { "username": "OliviaWilson", "userid": "8" },
+        { "username": "ChrisLee", "userid": "7" }
+      ]
+    }
+  ]
+  

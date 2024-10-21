@@ -1,0 +1,49 @@
+<div class="container-fluid p-0 m-0">
+  <div class="sticky-top" style="position: relative;">
+    <app-navbar></app-navbar>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <!-- User Info Column -->
+      <div class="col-lg-3 col-md-3 col-sm-12 d-none d-md-block">
+        <h5 class="fs-3">User Info</h5>
+        <p><strong>Name:</strong> John Doe</p>
+        <p><strong>Email:</strong> johndoeexample.com</p>
+        <p><strong>Phone:</strong> 555-1234</p>
+      </div>
+
+      <!-- Posts Feed Column -->
+      <div class="col-lg-6 col-md-9 col-sm-12" style="overflow-y: scroll; height: 90vh;">
+        <!-- <h5>Posts Feed</h5> -->
+        <div *ngFor="let post of posts" class="card mb-2">
+          <div class="card-body">
+            <h4 class="card-title">{{ post.posttitle }}</h4>
+            <div class="d-flex align-item-center justify-content-center">
+              <img class="card-img-top" src="/image.png" alt="img">
+            </div>
+
+            <!-- <img [src]="post.postfile" class="img-fluid" /> -->
+            <p class="card-text text-truncate" style="max-width: 500px;">{{ post.postdescription }}</p>
+            <div class="card-footer">
+              <div class="d-flex justify-content-around">
+                <p (click)="toggleLike(post)"><i class="bi bi-star-fill"></i><span
+                    class="ms-2">{{PostlikesCount}}</span></p>
+                <p><i class="bi bi-chat-left-text-fill"></i><span class="ms-2"> Comment</span></p>
+                <p><i class="bi bi-share-fill"></i><span class="ms-2"> share</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- Ads Column -->
+      <div class="col-lg-3 col-md-3 col-sm-12">
+        <h5>Advertisements</h5>
+        <div class="ad">Ad 1</div>
+        <div class="ad">Ad 2</div>
+      </div>
+    </div>
+  </div>
+</div>

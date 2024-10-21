@@ -1,0 +1,182 @@
+[
+    {
+        "username": "JohnDoe",
+        "useremail": "johndoe@example.com",
+        "userid": "1",
+        "userpassword": "password123",
+        "usergender": "Male",
+        "userphonenumber": "123-456-7890",
+        "recoveryemail": "recovery_john@example.com"
+    },
+    {
+        "username": "JaneSmith",
+        "useremail": "janesmith@example.com",
+        "userid": "2",
+        "userpassword": "securePass456",
+        "usergender": "Female",
+        "userphonenumber": "987-654-3210",
+        "recoveryemail": "recovery_jane@example.com"
+    },
+    {
+        "username": "TomJones",
+        "useremail": "tomjones@example.com",
+        "userid": "3",
+        "userpassword": "tjones789",
+        "usergender": "Male",
+        "userphonenumber": "555-555-5555",
+        "recoveryemail": "tomjones_recov@example.com"
+    },
+    {
+        "username": "AliceBrown",
+        "useremail": "alicebrown@example.com",
+        "userid": "4",
+        "userpassword": "aliceB789!",
+        "usergender": "Female",
+        "userphonenumber": "444-444-4444",
+        "recoveryemail": "alice_brown_recovery@example.com"
+    },
+    {
+        "username": "EthanTaylor",
+        "useremail": "ethantaylor@example.com",
+        "userid": "5",
+        "userpassword": "ethanT123",
+        "usergender": "Male",
+        "userphonenumber": "123-789-4560",
+        "recoveryemail": "etaylor_recovery@example.com"
+    },
+    {
+        "username": "SophiaDavis",
+        "useremail": "sophiadavis@example.com",
+        "userid": "6",
+        "userpassword": "sophiaD456",
+        "usergender": "Female",
+        "userphonenumber": "222-333-4444",
+        "recoveryemail": "sophia_d_recovery@example.com"
+    },
+    {
+        "username": "ChrisLee",
+        "useremail": "chrislee@example.com",
+        "userid": "7",
+        "userpassword": "chrisL321",
+        "usergender": "Male",
+        "userphonenumber": "321-654-9870",
+        "recoveryemail": "chrislee_recovery@example.com"
+    },
+    {
+        "username": "OliviaWilson",
+        "useremail": "oliviawilson@example.com",
+        "userid": "8",
+        "userpassword": "oliviaW789",
+        "usergender": "Female",
+        "userphonenumber": "555-666-7777",
+        "recoveryemail": "olivia_w_recovery@example.com"
+    },
+    {
+        "username": "DavidClark",
+        "useremail": "davidclark@example.com",
+        "userid": "9",
+        "userpassword": "davidC456",
+        "usergender": "Male",
+        "userphonenumber": "444-555-6666",
+        "recoveryemail": "david_clark_recovery@example.com"
+    },
+    {
+        "username": "EmilyMartinez",
+        "useremail": "emilymartinez@example.com",
+        "userid": "10",
+        "userpassword": "emilyM321",
+        "usergender": "Female",
+        "userphonenumber": "666-777-8888",
+        "recoveryemail": "emily_m_recovery@example.com"
+    },
+    {
+        "username": "MichaelAnderson",
+        "useremail": "michaelanderson@example.com",
+        "userid": "11",
+        "userpassword": "mikeA123",
+        "usergender": "Male",
+        "userphonenumber": "888-999-1111",
+        "recoveryemail": "michael_anderson_recov@example.com"
+    },
+    {
+        "username": "EmmaThompson",
+        "useremail": "emmathompson@example.com",
+        "userid": "12",
+        "userpassword": "emmaT456",
+        "usergender": "Female",
+        "userphonenumber": "333-444-5555",
+        "recoveryemail": "emma_thompson_recovery@example.com"
+    },
+    {
+        "username": "JamesWhite",
+        "useremail": "jameswhite@example.com",
+        "userid": "13",
+        "userpassword": "jwhite789",
+        "usergender": "Male",
+        "userphonenumber": "222-111-3333",
+        "recoveryemail": "james_white_recovery@example.com"
+    },
+    {
+        "username": "IsabellaMoore",
+        "useremail": "isabellamoore@example.com",
+        "userid": "14",
+        "userpassword": "isabellaM321",
+        "usergender": "Female",
+        "userphonenumber": "555-888-9999",
+        "recoveryemail": "isabella_m_recovery@example.com"
+    },
+    {
+        "username": "DanielKing",
+        "useremail": "danielking@example.com",
+        "userid": "15",
+        "userpassword": "danielK123",
+        "usergender": "Male",
+        "userphonenumber": "444-666-8888",
+        "recoveryemail": "daniel_king_recovery@example.com"
+    },
+    {
+        "username": "MiaPerez",
+        "useremail": "miaperez@example.com",
+        "userid": "16",
+        "userpassword": "miaP789",
+        "usergender": "Female",
+        "userphonenumber": "111-222-3333",
+        "recoveryemail": "mia_p_recovery@example.com"
+    },
+    {
+        "username": "LiamGreen",
+        "useremail": "liamgreen@example.com",
+        "userid": "17",
+        "userpassword": "liamG123",
+        "usergender": "Male",
+        "userphonenumber": "999-888-7777",
+        "recoveryemail": "liam_green_recovery@example.com"
+    },
+    {
+        "username": "AvaHall",
+        "useremail": "avahall@example.com",
+        "userid": "18",
+        "userpassword": "avaH456",
+        "usergender": "Female",
+        "userphonenumber": "222-333-6666",
+        "recoveryemail": "ava_h_recovery@example.com"
+    },
+    {
+        "username": "NoahAllen",
+        "useremail": "noahallen@example.com",
+        "userid": "19",
+        "userpassword": "noahA789",
+        "usergender": "Male",
+        "userphonenumber": "777-555-3333",
+        "recoveryemail": "noah_allen_recovery@example.com"
+    },
+    {
+        "username": "CharlotteYoung",
+        "useremail": "charlotteyoung@example.com",
+        "userid": "20",
+        "userpassword": "charlotteY321",
+        "usergender": "Female",
+        "userphonenumber": "888-777-6666",
+        "recoveryemail": "charlotte_y_recovery@example.com"
+    }
+]
